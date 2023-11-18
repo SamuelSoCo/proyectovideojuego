@@ -7,7 +7,7 @@ int main() {
 
     do {
         // Menú principal
-        cout << "--------------------------------------------------------------    HP=100%" << endl;
+        cout << "-----------------------------------------------------------Arma:ninguna    HP=100%" << endl;
         cout<<"-juan es ungranjero algo alto y furte pero con mala suerte"<<endl;
         cout<<"parece que va adespertar.Ahhhhh(juan desperto),ve asu alrededor"<<endl;
         cout<<"-juan:que tarde me desperte que hare hoy. "<<endl;
@@ -24,7 +24,7 @@ int main() {
         cin >> opcion;
 
         switch (opcion) {
-            case 1:cout << "--------------------------------------------------------------    HP=100%" << endl;
+            case 1:cout << "--------------------------------------------------------------Arma:ninguna    HP=100%" << endl;
                 // Acción 1
                 cout << "Ya apasado varias horas ya es como la una dela tarde,ya no desayune bueno que hare entonces :" << endl;
                 for (int i = 1; i <= 3; ++i) {
@@ -39,7 +39,7 @@ int main() {
                 }
                 break;
 
-            case 'b':
+            case 2:
                 // Acción 2
                 cout << "hooo no la ropa limpia se quedo colgada afuera y como llovio no puedo cambiarme .\n:" << endl;
                 cout<<"tendre que salir o desayunar mejor antes de salir\n";
@@ -49,34 +49,37 @@ int main() {
                     cout << i << "3-salir asi sin desayunar(con la misma ropa que se puede hacer) " << i << ".3" << endl;
                     
                     
-                    cout << "Seleccione una opción (1-5): ";
+                    cout << "Seleccione una opción (1-3): ";
                     cin >> opcion;
                     // Agrega acciones para cada submenú
                 }
                 break;
 
-            case 'c':
+            case 3: cout << "--------------------------------------------------------------Arma:ninguna    HP=100%" << endl;
                 // Acción 3
-                cout << "\nRealizando Acción 3:" << endl;
+                cout << "Parese que solo tengo pan y agua, quisiera un poco de leche parael pan" << endl;
+                cout<<"Saldre a ordeñar una vaca?"
                 for (int i = 1; i <= 3; ++i) {
-                    cout << i << ". Submenú " << i << ".1" << endl;
-                    cout << i << ". Submenú " << i << ".2" << endl;
-                    cout << i << ". Submenú " << i << ".3" << endl;
+                    cout << i << "1-salir a ordeñar una vaca para desayunar con leche." << i << ".1" << endl;
+                    cout << i << "2-Comer solo el pan y algo de agua para cambiarse de ropa. " << i << ".2" << endl;
+                    cout << i << "3-ver que hay en tu casa y ver que otra cosa puedes hacer." << i << ".3" << endl;
                     cout << i << ". Submenú " << i << ".4" << endl;
                     cout << i << ". Submenú " << i << ".5" << endl;
-                    cout << "Seleccione una opción (1-5): ";
+                    cout << "Seleccione una opción (1-3): ";
                     cin >> opcion;
                     // Agrega acciones para cada submenú
                 }
                 break;
 
-            case 'd':
+            case 'd':cout << "--------------------------------------------------------Arma:revolver,cuchillo.   HP=100%" << endl;
                 // Acción 4
-                cout << "\nRealizando Acción 4:" << endl;
+                cout << "Que sorpresa tengo un libro(la biblia )pero no se nunca me gusto leer, ho mi viejo cuchillo," << endl;
+                cuot<<"y mi revolver las tima que no tengo mas municion solo tengo 6 tiros,los cojere talves salga.";
+                cout<<"bueno a ver que are:";
                 for (int i = 1; i <= 3; ++i) {
-                    cout << i << ". Submenú " << i << ".1" << endl;
-                    cout << i << ". Submenú " << i << ".2" << endl;
-                    cout << i << ". Submenú " << i << ".3" << endl;
+                    cout << i << "1-Salir a comprar municion para el revolver." << i << ".1" << endl;
+                    cout << i << "2-Ver que hay para desayunar y salir al campo. " << i << ".2" << endl;
+                    cout << i << "3-Leer el libro un rato." << i << ".3" << endl;
                     cout << i << ". Submenú " << i << ".4" << endl;
                     cout << i << ". Submenú " << i << ".5" << endl;
                     cout << "Seleccione una opción (1-5): ";
@@ -85,7 +88,7 @@ int main() {
                 }
                 break;
 
-            case 'e':
+            case 5:
                 cout << "Saliendo del programa. ¡Hasta luego!" << endl;
                 break;
 
