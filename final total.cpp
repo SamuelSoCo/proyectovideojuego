@@ -10,7 +10,7 @@ int main() {
     do {
         // Menú principal
       system("color fd");
-      cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=100%  |" << endl;
+      cout << "|------------------------------------------------------------------------------------  |" << endl;
         cout<<"|-juan es ungranjero algo alto y furte pero con mala suerte                         |"<<endl;
         cout<<"|parece que va adespertar.Ahhhhh(juan desperto),ve asu alrededor                    |"<<endl;
         cout<<"|-juan:que tarde me desperte que hare hoy.                                          | "<<endl;
@@ -95,7 +95,7 @@ int main() {
         switch (opcion) {
             case 1:
             	cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=100%" <<endl;
-                cout << "|juan en el bosque no encontro ala vaca pero hay un rio"<<endl;
+                cout << "|(juan en el bosque no encontro ala vaca ,pero llego aun rio un rio)"<<endl;
                 cout << "|1. Cruzar el río nadando" << endl;
                 cout << "|2. Buscar un puente cercano" << endl;
                 cout << "|3. Retroceder y explorar otra área" << endl;
@@ -138,7 +138,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar para el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -147,8 +147,8 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
+		
+		
 			break;
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
@@ -173,7 +173,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar para el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -181,9 +181,9 @@ switch(opcion){
 	break;
 	case 2:
 		return 0;
-		case 3:
-			continue;
-			break;
+		
+			
+			
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
 		break;
@@ -207,7 +207,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no3,3=continuar para el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -216,9 +216,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
 }
@@ -270,7 +268,7 @@ switch(opcion){
                 break;
             case 3:
             	cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=100%" <<endl;
-            	cout << "|(juan en el bosque olle ruido)juan que esta pasando en  el arbusto"<<endl;
+            	cout << "|(juan en el bosque holle ruido)juan que esta pasando en  el arbusto"<<endl;
             	cout << "|hooo!, un monstruo maldicion que hago."<<endl;
                 cout << "|Te enfrentas a un monstruo. ¿Cómo decides atacar?" << endl;
                 cout << "|1. intentar pegarle con la mano."<<endl;
@@ -389,7 +387,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -398,9 +396,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -424,7 +420,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -433,9 +429,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -459,7 +453,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -468,9 +462,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -523,7 +515,7 @@ switch(opcion){
                 break;
             case 3:
             	cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=100%" <<endl;
-            	cout << "|(juan en el bosque olle ruido)juan que esta pasando en  el arbusto"<<endl;
+            	cout << "|(juan en el bosque holle ruido)juan que esta pasando en  el arbusto"<<endl;
             	cout << "|hooo, un monstruo maldicion que hago."<<endl;
                 cout << "|Te enfrentas a un monstruo. ¿Cómo decides atacar?" << endl;
                 cout << "|1. intentar pegarle con la mano."<<endl;
@@ -645,7 +637,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -654,9 +646,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -680,7 +670,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar el final del juego"<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -689,9 +679,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -715,7 +703,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar para el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -724,9 +712,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -886,7 +872,7 @@ switch(opcion){
             case 1:
                 cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=60%" << endl;
                 cout << "|(Juan empiesa a limpiar el terreno y lo muerde una vivora)" << endl;
-                cout << "|maldicion tendre que intentar currarme o ir al pueblo." << endl;
+                cout << "|maldicion tendre que intentar curarme o ir al pueblo." << endl;
                 cout << "|1.-Ir ala casa y curarse solo(es peligroso)." << endl;
                 cout << "|2.-Curarse en el campo(subcionar el veneno)."<<endl;
                 cout << "|3.-Buscar un caballo para ir al pueblo."<<endl;
@@ -898,7 +884,7 @@ switch(opcion){
                  do {// 2 tercera iteracion
         // Menú principal
         cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=60%" << endl;
-        cout << "|(juan al ser mordido por uan vivora escondida se desmayo)haaa parece que me esta aciendo efecto el veneno,subcionare el veneno"<<endl;
+        cout << "|(juan al ser mordido por uan vivora escondida se desmayo)haaa parece que me esta haciendo efecto el veneno,subcionare el veneno"<<endl;
         cout << "|juan se sienta mal pero camina hasta su casay entra"<<endl;
         cout << "|1.recostarse en la cama y descansar"<<endl;
         cout << "|2.descansar en el piso para no moverte mas."<<endl;
@@ -916,7 +902,7 @@ switch(opcion){
         switch (opcion) {
             case 1:
                 cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=?" << endl;
-                cout << "|(juan no se leventa)que firbre tengo y dolor tendre que esperar que recuerdos tengo"<<endl;
+                cout << "|(juan no se leventa)que fiebre tengo y dolor tendre que esperar que recuerdos tengo"<<endl;
                 cout << "|sera que morire bueno que sea lo que quiera:"<<endl;
                 cout << "|1.rezar un rato y descansar."<<endl;
                 cout << "|2.recordar cosas de los padres y amigos"<<endl;
@@ -930,7 +916,7 @@ switch(opcion){
         // Menú principalcopiar
         cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=?" << endl;
         cout << "|(juan se durmio y luego de unas horas desperto aun que algo mareado)"<<endl;
-        cout << "|creo que ya me puedo levantar, intentare sali e ir al pueblo por un  doctor"<<endl;
+        cout << "|creo que ya me puedo levantar, intentare salir eir al pueblo por un  doctor"<<endl;
         cout << "|(juan abrio la puerta y busco su caballo pero no lo encontro)"<<endl;
         cout << "|1. Avanzar con el vecino mas cercano"<<endl;
         cout << "|2. Llamar el caballo y esperar a que regrese"<<endl;
@@ -964,7 +950,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -973,9 +959,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		;
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1000,7 +984,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -1009,9 +993,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1036,7 +1018,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -1045,9 +1027,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1099,7 +1079,7 @@ switch(opcion){
                 break;
             case 3:
                 cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=?" << endl;
-                cout << "|espero que dios me escuvhe y me ayude,siento que pasa el efecto"<<endl;
+                cout << "|espero que dios me escuche y me ayude,siento que pasa el efecto"<<endl;
                 cout << "|creo que puedo salir a buscar unndoctor:"<<endl;
                 cout << "|1.Levantarse y salir al pueblo por un doctor."<<endl;
                 cout << "|2.esperar a que pase el efecto y salir."<<endl;
@@ -1142,7 +1122,7 @@ switch(opcion){
                 break;
             case 2://2.1
             	cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=100%" << endl;
-            	cout << "|Juan busco y no enconro a su vaca que hare tendre que buscarla o regreso a desayunar:"<<endl;
+            	cout << "|Juan busco y no encontro a su vaca que hare tendre que buscarla o regreso a desayunar:"<<endl;
             	cout << "|la buscare, en el bosque,ho una cueva."<<endl;
                 cout << "|Entras en la cueva y te encuentras con dos pasillos. ¿Hacia dónde vas?" << endl;
                 cout << "|1. Hacia la izquierda" << endl;
@@ -1222,7 +1202,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -1231,9 +1211,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1258,7 +1236,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -1267,9 +1245,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1294,7 +1270,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -1303,9 +1279,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1358,7 +1332,7 @@ switch(opcion){
             case 3:
                 cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=?" << endl;
                 cout << "|espero que dios me escuvhe y me ayude,siento que pasa el efecto"<<endl;
-                cout << "|creo que puedo salir a buscar unndoctor:"<<endl;
+                cout << "|creo que puedo salir a buscar un doctor:"<<endl;
                 cout << "|1.Levantarse y salir al pueblo por un doctor."<<endl;
                 cout << "|2.esperar a que pase el efecto y salir."<<endl;
                 cout << "|3.leer algo o comer hasta que pase el efecto."<<endl;
@@ -1480,7 +1454,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -1489,9 +1463,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+	
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1516,7 +1488,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -1525,9 +1497,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1552,7 +1522,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -1561,9 +1531,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1615,8 +1583,8 @@ switch(opcion){
                 break;
             case 3:
                 cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=?" << endl;
-                cout << "|espero que dios me escuvhe y me ayude,siento que pasa el efecto"<<endl;
-                cout << "|creo que puedo salir a buscar unndoctor:"<<endl;
+                cout << "|espero que dios me escuche y me ayude,siento que pasa el efecto"<<endl;
+                cout << "|creo que puedo salir a buscar un doctor:"<<endl;
                 cout << "|1.Levantarse y salir al pueblo por un doctor."<<endl;
                 cout << "|2.esperar a que pase el efecto y salir."<<endl;
                 cout << "|3.leer algo o comer hasta que pase el efecto."<<endl;
@@ -1720,7 +1688,7 @@ switch(opcion){
             case 1:
             	cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=100%" << endl;
             	cout << "|juan busca por el alrededor y no ve nada,tendre que ir al bosque no queda de otra"<<endl;
-            	cout << "|busca pistas y ve huelas, se escucha un rio:"<<endl;
+            	cout << "|busca pistas y ve huellas, se escucha un rio:"<<endl;
                 cout << "|1.caminas por el boque encuentyras un rio." << endl;
                 cout << "|2.sigues la huellas de la vaca."<<endl;
                 cout << "|3.seguir explorando el bosque o regresar a casa."<<endl;
@@ -1763,7 +1731,7 @@ switch(opcion){
                  do {
         // Menú principal
         cout << "|-----------------------------------------------dinero:?   Arma:rama HP:100%"<<endl;
-        cout << "|(juan encontro el rio y lo observa)esta caudaloso es alriesgado nadar?,"<<endl;
+        cout << "|(juan encontro el rio y lo observa)esta caudaloso es ariesgado nadar?,"<<endl;
         cout << "|pero se puede pescar, la vaca puede esperar un rato:"<<endl;
         cout << "|1. Avanzar por el bosque" << endl;
         cout << "|2. Explorar una cueva cercana al rio"<<endl;
@@ -1781,7 +1749,7 @@ switch(opcion){
         switch (opcion) {
             case 1:
                 cout << "|-----------------------------------------------dinero:?   Arma:rama HP:100%"<<endl;
-                cout << "|(juan prefiere no arriegarse)y mejor busca un arbol frutal y a si vaca de paso"<<endl;
+                cout << "|(juan prefiere no arriesgarse)y mejor busca un arbol frutal y a si vaca de paso"<<endl;
                 cout << "|buscare alrededor del rio:"<<endl;
                 cout << "|1. Ver que arboles tienen fruta"<<endl;
                 cout << "|2. Buscar cerca del rio la vaca y fruta de paso"<<endl;
@@ -1796,7 +1764,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -1805,9 +1773,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1832,7 +1798,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -1841,9 +1807,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1866,7 +1830,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -1875,9 +1839,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 			default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -1930,7 +1892,7 @@ switch(opcion){
                 break;
             case 3:
                 cout << "|-----------------------------------------------dinero:?   Arma:ninguna    HP=100%" << endl;
-                cout << "|que rio tengo hambre y estoy sucio:"<<endl;
+                cout << "|que bonito rio, tengo hambre y estoy sucio:"<<endl;
                 cout << "|1. (juan esta en el rio)que rio tan  bonito pescare y me bañare."<<endl;
                 cout << "|2. Revisar si hay algo de comer serca del rio o un pescado."<<endl;
                 cout << "|3. nadar un rato y pescar."<<endl;
@@ -1939,7 +1901,25 @@ switch(opcion){
                 cout << "|------------------------------------------------------------------------------------"<<endl;
                 cin>>opcion;
                 system("cls");
+                cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
+cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
+cout<<"hasta que un dia despierte."<<endl;
+cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
+cin>>opcion;
+switch(opcion){
+    case 1:
+    return main();
+    break;
+    case 2:
+    return 0;
+    break;
+    default:
+    cout << "Opción no válida. Por favor, elige nuevamente." << endl;
+    break;
+} 
                 break;
+                
            
              
             case 5:
@@ -1997,6 +1977,7 @@ switch(opcion){
         
         cin >> opcion;
         system("cls");
+        break;
 
         // Acciones según la elección del usuario
         switch (opcion) {
@@ -2049,7 +2030,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2058,9 +2039,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -2084,7 +2063,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2093,9 +2072,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 			default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -2119,7 +2096,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2128,9 +2105,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 			default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -2250,6 +2225,25 @@ switch(opcion){
         
         cin >> opcion;
         system("cls");
+         cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
+cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
+cout<<"hasta que un dia despierte."<<endl;
+cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
+cin>>opcion;
+switch(opcion){
+    case 1:
+		return main();
+	break;
+	case 2:
+		return 0;
+		break;
+		
+			default:
+                cout << "Opción no válida. Por favor, elige nuevamente." << endl;
+                break;
+}
+        break;
 
         // Acciones según la elección del usuario
         switch (opcion) {
@@ -2302,7 +2296,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2311,9 +2305,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 			default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -2337,7 +2329,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2345,9 +2337,7 @@ switch(opcion){
 	break;
 	case 2:
 		return 0;
-		case 3:
-			continue;
-			break;
+		
 		break;
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
@@ -2372,7 +2362,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2381,9 +2371,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -2624,7 +2612,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2633,9 +2621,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -2660,7 +2646,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2669,9 +2655,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -2696,7 +2680,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2705,9 +2689,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -2877,7 +2859,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2886,9 +2868,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -2913,7 +2893,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=seguir en el final del juego."<<endl;
+cout << " 1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2922,9 +2902,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -2949,7 +2927,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << " 1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -2958,9 +2936,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -3054,7 +3030,7 @@ switch(opcion){
                 break;
             case 3://4.1
             	cout << "|-----------------------------------------------dinero:?   Arma:revolver  HP:100%"<<endl;
-            	cout << "|mi campo lo perdi todo no tendre dinero,escuchom un ruido que es un monstruo¡"<<endl;
+            	cout << "|mi campo lo perdi todo no tendre dinero,escucho un ruido que es un monstruo¡"<<endl;
                 cout << "|Te enfrentas a un monstruo. ¿Cómo decides atacar?" << endl;
                 cout << "|1. buscar algo en tu casa para defenderte"<<endl;
                 cout << "|2. Lanzr piedras o rama a la bestia."<<endl;
@@ -3069,7 +3045,7 @@ switch(opcion){
         cout << "|me gusta tomar pero creo que no traigo dinero podria ir ala armeria y pedir prestado"<<endl;
         cout << "|o puedo ir ala cantina y pedir tambien credito:"<<endl;
         cout << "|1.Ir ala cantina y pedir credito."<<endl;
-        cout << "|2.ir a la armeria y pedir prstado."<<endl;
+        cout << "|2.Ir a la armeria y pedir prestado."<<endl;
         cout << "|3.Caminar por el pueblo un rato."<<endl;
         cout << "|Seleccione una opción (1-3)"<<endl;
         cout << "|5. Salir del juego" << endl;
@@ -3133,7 +3109,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << " 1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -3141,9 +3117,7 @@ switch(opcion){
 	break;
 	case 2:
 		return 0;
-		case 3:
-			continue;
-			break;
+		
 		break;
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
@@ -3169,7 +3143,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar en el final del juego."<<endl;
+cout << "1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -3177,9 +3151,7 @@ switch(opcion){
 	break;
 	case 2:
 		return 0;
-		case 3:
-			continue;
-			break;
+		
 		break;
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
@@ -3205,7 +3177,7 @@ cout<<"(juan en realidad estaba en un hospital,hubo una tormenta"<<endl;
 cout<<"perdio el conocimiento y solo sueña cosas aleatorias hasta"<<endl;
 cout<<"hasta que un dia despierte."<<endl;
 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=segiur ren el final del juego."<<endl;
+cout << " 1=menu principal,2=terminar juego."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -3214,9 +3186,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -3228,7 +3198,7 @@ switch(opcion){
              
             case 5:
                 cout<<"quieres regresar al inicio del juego o terminar:"<<endl;
-cout << " 1=si,2=no,3=continuar."<<endl;
+cout << " 1=si,2=no."<<endl;
 cin>>opcion;
 switch(opcion){
 	case 1:
@@ -3237,9 +3207,7 @@ switch(opcion){
 	case 2:
 		return 0;
 		break;
-		case 3:
-			continue;
-			break;
+		
 		default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
                 break;
@@ -3249,6 +3217,7 @@ switch(opcion){
                 break;
             default:
                 cout << "Opción no válida. Por favor, elige nuevamente." << endl;
+                break;
         }
 
     } while (opcion != 5);
