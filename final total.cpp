@@ -3033,7 +3033,7 @@ switch(opcion){
             	cout << "|mi campo lo perdi todo no tendre dinero,escucho un ruido que es un monstruo¡"<<endl;
                 cout << "|Te enfrentas a un monstruo. ¿Cómo decides atacar?" << endl;
                 cout << "|1. buscar algo en tu casa para defenderte"<<endl;
-                cout << "|2. Lanzr piedras o rama a la bestia."<<endl;
+                cout << "|2. Lanzar piedras o rama a la bestia."<<endl;
                 cout << "|3. Intentar huir" << endl;
                 cout << "|Seleccione una opción (1-3)"<<endl;
                 cout << "|5. Salir del juego" << endl;
@@ -3236,7 +3236,7 @@ switch(opcion){
                 break;
             case 3:
                 cout << "|-----------------------------------------------dinero:?   Arma:revolver HP:100%"<<endl;
-                cout << "|camine un  rato pero quiero tamar algo asi que voy a el bar,ya estoy aqui"<<endl;
+                cout << "|camine un  rato pero quiero tomar algo asi que voy a el bar,ya estoy aqui"<<endl;
                 cout << "|tendre que hablar con el cantinero:"<<endl;
                 cout << "|1.hablar con el cantinero y pedir una cerveza."<<endl;
                 cout << "|2.sentarse y ablar con el mesero."<<endl;
